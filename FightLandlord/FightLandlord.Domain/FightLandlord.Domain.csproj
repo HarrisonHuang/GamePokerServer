@@ -72,6 +72,11 @@
     <Compile Include="Commands\Command.cs" />
     <Compile Include="Commands\MessageCommand.cs" />
     <Compile Include="Hubs\FightLandlordHub.cs" />
+    <Compile Include="Models\Poker.cs" />
+    <Compile Include="Models\Seat.cs" />
+    <Compile Include="Models\Socket.cs" />
+    <Compile Include="Models\Table.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Receiver\MessageReceiver.cs" />
     <Compile Include="Receiver\Receiver.cs" />
@@ -84,6 +89,9 @@
       <Project>{4a9d137b-82f2-4d90-afe1-a21976285c6e}</Project>
       <Name>FightLandlord.Common</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Enums\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
