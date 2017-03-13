@@ -239,10 +239,13 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
-    <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\FightLandlord.Common\FightLandlord.Common.csproj">
+      <Project>{4a9d137b-82f2-4d90-afe1-a21976285c6e}</Project>
+      <Name>FightLandlord.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FightLandLord.Domain\FightLandlord.Domain.csproj">
       <Project>{555a8efa-038d-47db-bd0e-740887d66486}</Project>
       <Name>FightLandlord.Domain</Name>
