@@ -17,6 +17,7 @@ namespace FightLandlord.Domain.Models
             }
             Position = pos;
         }
+        public bool IsLord { set; get; }
         public User User { set; get; }
         public bool HasUser { get { return User != null; } }
         public List<Poker> PokerList { set; get; }

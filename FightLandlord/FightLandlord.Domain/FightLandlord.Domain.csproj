@@ -72,6 +72,7 @@
     <Compile Include="Commands\Command.cs" />
     <Compile Include="Commands\MessageCommand.cs" />
     <Compile Include="Hubs\FightLandlordHub.cs" />
+    <Compile Include="Models\CurrentRound.cs" />
     <Compile Include="Models\Poker.cs" />
     <Compile Include="Models\Seat.cs" />
     <Compile Include="Models\Socket.cs" />
