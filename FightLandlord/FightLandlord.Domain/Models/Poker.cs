@@ -85,6 +85,20 @@ namespace FightLandlord.Domain.Models
         Diamond = 4,
         Joker = 6,
     }
+
+    public enum PokersType
+    {
+        Single = 0,//3
+        Pair,//33
+        Three,//333
+        ThreeWithTwo,//33344
+        Bomb,//3333
+        Straight,//34567
+        Rocket,//JokerX4
+        AirPlane,//3334445566
+        PairStraight,//334455
+        ThreeStraight,//333444
+    }
     public class PokerCollection
     {
         public static List<Poker> AllPokers = new List<Poker>{
